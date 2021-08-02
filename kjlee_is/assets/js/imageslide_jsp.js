@@ -33,5 +33,4 @@ function init(){
   prevBtn.addEventListener("click", prev)
   nextBtn.addEventListener("click", next)
 }
- 
 init();
