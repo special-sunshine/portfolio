@@ -1,0 +1,40 @@
+.container{
+    width: 700px;
+    margin: 0 auto;
+  }
+  h1{
+    text-align: center;
+  }
+  .album{
+    height: 400px;
+    width: 700px;
+    overflow: hidden;
+  }
+  .images{
+    position: relative;
+    display: flex;
+    height: 400px;
+  }
+  img{
+    width: 700px;
+    height: 400px;
+  }
+  button, button:active, button:focus{
+    width: 100px; height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(98, 0, 128);
+    outline: none;
+  }
+  button:hover{
+    background-color: rgb(179, 64, 224);
+  }
+  button:disabled{
+    background-color: gray;
+  }
+  .prev{
+    float: left;
+  }
+  .next{
+    float: right;
+  }
