@@ -1,0 +1,37 @@
+.container2{
+    width: 1000px;
+    margin: 0 auto;
+}
+  .album2{
+    height: 600px;
+    width: 1000px;
+    overflow: hidden;
+  }
+  .images2{
+    position: relative;
+    display: flex;
+    height: 600px;
+  }
+  img{
+    width: 1000px;
+    height: 600px;
+  }
+  button, button:active, button:focus{
+    width: 100px; height: 30px;
+    border: none;
+    color: white;
+    background-color: rgb(98, 0, 128);
+    outline: none;
+  }
+  button:hover{
+    background-color: rgb(179, 64, 224);
+  }
+  button:disabled{
+    background-color: gray;
+  }
+  .prev{
+    float: left;
+  }
+  .next{
+    float: right;
+  }

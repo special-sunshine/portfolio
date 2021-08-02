@@ -1625,7 +1625,7 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
-/* Button */
+/* Button
 
 	input[type="button"],
 	input[type="submit"],
@@ -1746,7 +1746,7 @@ input, select, textarea {
 			.button.style3:active {
 				background-color: #1f232b;
 			}
-
+ */
 /* List */
 
 	ul {
